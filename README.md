@@ -2,9 +2,9 @@
 # Foresquare London Venue Search
   
   ## Installation
- -- Install dependencies with `npm i`
- -- Run the application with `npm run dev` to start the local server.
- -- Run the Jest test runner with `npm run test`
+ - Install dependencies with `npm i`
+ - Run the application with `npm run dev` to start the local server.
+ -  Run the Jest test runner with `npm run test`
 
 ## Main dependencies added
 - **react-query** to handle API calls (with fetch) to the Foresquare API.
