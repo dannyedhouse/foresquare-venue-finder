@@ -1,0 +1,107 @@
+.searchContainer {
+  margin: 0 auto;
+  opacity: 20;
+  background-color: #154349;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 12px;
+}
+
+.searchForm {
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  gap: 8px;
+}
+
+.inputContainer label {
+  display: block;
+  width: 100%;
+}
+
+.inputContainer > div {
+  flex: 1;
+}
+
+.searchInput {
+  width: 90%;
+}
+
+.searchBtn {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  min-width: 50px;
+  align-self: center;
+}
+
+.searchBtnText {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .inputContainer {
+    flex-direction: row;
+  }
+
+  .searchInput {
+    width: unset;
+  }
+
+  .searchForm {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 600px) {
+  .searchBtn {
+    width: 70%;
+  }
+
+  .searchBtnText {
+    display: block;
+  }
+}
+
+@media (min-width: 900px) {
+  .inputContainer > div {
+    flex: unset;
+  }
+
+  .searchInput {
+    width: unset;
+  }
+
+  .inputContainer {
+    gap: 30px;
+    width: unset;
+  }
+
+  .inputContainer label {
+    margin-right: 12px;
+    display: unset;
+    width: auto;
+  }
+
+  .searchBtn {
+    align-self: flex-end;
+    justify-content: center;
+    margin-left: auto;
+    min-width: 200px;
+  }
+
+  .searchBtnText {
+    display: block;
+  }
+}

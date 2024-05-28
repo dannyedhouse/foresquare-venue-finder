@@ -1,0 +1,23 @@
+.heroBanner {
+  border-radius: 20;
+  width: 100%;
+  text-align: left;
+}
+
+.header {
+  font-size: 40px;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .header {
+    max-width: 40%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    margin-top: 150px;
+    font-size: 60px;
+  }
+}

@@ -1,0 +1,24 @@
+.venueCard {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  color: #000;
+  background: white;
+  border: none;
+  width: 280px;
+  height: 100px;
+  overflow-y: auto;
+}
+
+@media (min-width: 480px) {
+  .venueCard {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  .venueCard {
+    width: 280px;
+  }
+}

@@ -1,0 +1,45 @@
+.resultsGrid {
+  list-style: none;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(1, 1fr);
+  width: 100%;
+  padding: 0;
+}
+
+.resultsTable {
+  background-color: white;
+}
+
+.statusScreen {
+  background-color: white;
+  border-radius: 4px;
+  padding: 4px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.statusScreen > p {
+  font-size: 24px;
+}
+
+@media (min-width: 480px) {
+  .resultsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .resultsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1280px) {
+  .resultsGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

@@ -1,0 +1,59 @@
+.imageLoading {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  place-content: center;
+}
+
+.venueName {
+  padding: 10px;
+  font-size: 30px;
+}
+
+.modalLocation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  padding: 20px;
+}
+
+.categoryPills {
+  margin: 0 auto;
+  display: flex;
+  gap: 4px;
+  max-width: 80%;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.venueDetails {
+  padding: 20px;
+}
+
+.closeModalBtn {
+  margin-top: auto;
+  margin-bottom: 50px;
+  width: 50%;
+  align-self: center;
+}
+
+@media (min-width: 480px) {
+  .venueImage {
+    border-radius: 12px;
+  }
+
+  .venueName {
+    padding: 0;
+    font-size: 24px;
+  }
+
+  .modalLocation {
+    padding: 0;
+  }
+
+  .closeModalBtn {
+    margin-bottom: 0px;
+  }
+}
